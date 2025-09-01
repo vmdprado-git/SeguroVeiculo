@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dn3pcwPAxMYGy4R8qncReZZZMfmc8qzY7WRR/LoiZ2I=",
+  "Source": "SeguroVeiculo.Api",
+  "BasePath": "_content/SeguroVeiculo.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

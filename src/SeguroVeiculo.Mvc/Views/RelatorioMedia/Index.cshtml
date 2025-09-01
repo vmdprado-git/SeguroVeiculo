@@ -1,0 +1,36 @@
+@model List<SeguroVeiculo.Mvc.Models.RelatorioMediaViewModel>
+
+@{
+    ViewData["Title"] = "Relatório de Médias Aritméticas de Seguros";
+}
+
+<h1 class="mt-3 mb-4">Relatório de Médias Aritméticas de Seguros</h1>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning">
+        Nenhum dado encontrado.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Marca-Modelo</th>
+                <th>Média Valor Seguro</th>
+                <th>Total Seguros</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MarcaModelo</td>
+                <td>@item.ValorMedia.ToString("C")</td>
+                <td>@item.TotalSeguros</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

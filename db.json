@@ -1,0 +1,16 @@
+{
+  "segurados": [
+    {
+      "id": 1,
+      "nome": "Jose da Silva",
+      "CPF": 12345678901,
+      "Idade": 40
+    },
+        {
+      "id": 2,
+      "nome": "Maria de Souza",
+      "CPF": 10987654321,
+      "Idade": 35
+    }
+  ]
+}
